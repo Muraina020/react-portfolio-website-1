@@ -47,3 +47,19 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
 }
+@media screen and (max-width: 1024px){
+    .container.contact__container{
+      grid-template-columns: 1fr;
+    
+    
+      
+    }
+}
+@media screen and (max-width: 600px){
+    .contact__container{
+       grid-template-columns: 1fr;
+       padding: 0 1rem;
+    }
+   
+  
+}

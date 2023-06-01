@@ -46,3 +46,17 @@
     color:var(--color-primary) ;
 
 }
+@media screen and (max-width: 1024px){
+    .service__container{
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+}
+@media screen and (max-width: 600px){
+    .service__container{
+       grid-template-columns: 1fr;
+       padding: 0 2rem;
+    }
+   
+  
+}

@@ -3,7 +3,7 @@ footer{
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 11rem;
 }
 footer a{
     color: var(--color-bg);
@@ -26,7 +26,7 @@ footer a{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
 }
 .footer__socials a{
     background: var(--color-bg);
@@ -37,7 +37,24 @@ footer a{
 
 }
 .footer__copyright {
-   
+    margin: 2rem;
     color: var(--color-bg);
-    margin-bottom: 2.2rem;
+   
+}
+@media screen and (max-width: 1024px){
+ 
+    .permalinks{
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .footer__socials{
+        margin-bottom: 2.5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .permalinks{
+     flex-direction: column;
+    }
+   
+  
 }

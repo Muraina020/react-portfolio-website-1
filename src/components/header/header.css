@@ -54,3 +54,19 @@ header{
     bottom: 2.5rem;
     transform: rotate(90deg);
 }
+@media screen and (max-width: 1024px){
+    header{
+      height: 68vh;
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+        padding-left: 2rem;
+    }
+  
+    .header__social, .scroll__down{
+        display: none;
+    }
+  
+}
