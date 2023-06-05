@@ -43,6 +43,7 @@
     .experience__container{
        grid-template-columns: 1fr;
        padding-right:  4rem;
+       margin:  2rem 0 2rem;
     }
    
   

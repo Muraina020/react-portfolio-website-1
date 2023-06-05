@@ -64,7 +64,8 @@ transition: var(--transition);
    }
    .about__me{
     width: 80%;
-    margin: 2rem auto 4rem;
+    margin: 2rem auto 4rem
+    rem;
     }
     .about__content p{
         margin: 1rem 1rem;
@@ -72,7 +73,7 @@ transition: var(--transition);
 }
 @media screen and (max-width: 600px){
     .about__me{
-        width: 67%;
+        width: 72%;
         margin: 0 auto 3rem;
     }
     .about__cards{
